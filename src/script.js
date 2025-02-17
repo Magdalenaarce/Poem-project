@@ -1,6 +1,6 @@
 function displayjoke(response) {
   let joke = document.querySelector("#joke");
-  joke.innerHTML = response.data;
+  joke.innerHTML = response.data.answer;
 }
 
 function telljoke(event) {
