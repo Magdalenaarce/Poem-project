@@ -10,6 +10,7 @@ function displayjoke(response) {
 
 function telljoke(event) {
   let instructions = document.querySelector("#text1");
+  let apiurl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${key}`;
   context = "you are a romantic poem expert and love to write short poems.";
   promtt = `write a poem following the user instructions: ${instructions}`;
   axios.get(apiurl).then(displayjoke);
