@@ -1,0 +1,39 @@
+main {
+  background-color: #ffffff;
+  max-width: 600px;
+  margin: 32px auto;
+  text-align: center;
+  padding: 32px;
+  border-radius: 20px;
+}
+a {
+  color: #a2a8d3;
+}
+body {
+  background-color: #e7eaf6;
+  color: #113f67;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+input {
+  border-radius: 12px;
+}
+
+div {
+  color: #113f67;
+}
+
+#text1 {
+  width: 300px;
+  height: 35px;
+  border-color: #113f67;
+}
+
+#submit {
+  width: 100px;
+  height: 40px;
+  background-color: #113f67;
+  color: #ffffff;
+  border: none;
+}
