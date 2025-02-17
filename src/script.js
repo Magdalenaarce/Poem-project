@@ -1,6 +1,6 @@
 function telljoke() {
   let joke = document.querySelector("#joke");
-  joke.innerHTML("pruena generando un chiste");
+  joke.innerHTML = "pruena generando un chiste";
 }
 
 button1 = document.querySelector("#submit");
