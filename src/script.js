@@ -4,7 +4,7 @@ function displayjoke(response) {
 }
 
 function telljoke(event) {
-  let instructions = document.querySelector("#text1");
+  let instructions = document.querySelector("#text");
   let apikey = "ec2tac9a4a7ec807298084203cbof638";
   let context =
     "you are a cultured and very experienced AI generator and respond to the user with correct answers";
