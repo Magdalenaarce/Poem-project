@@ -8,7 +8,7 @@ function telljoke(event) {
   let apikey = "ec2tac9a4a7ec807298084203cbof638";
   let context =
     "you are a cultured and very experienced AI generator and respond to the user with correct answers";
-  let prompt = `answer following the user instructions: ${instructions}`;
+  let prompt = `answer following the user instructions: ${instructions.value}`;
   let apiurl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apikey}`;
   axios.get(apiurl).then(displayjoke);
 }
